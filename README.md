@@ -1,15 +1,12 @@
-# pyautogui
+# Fiver Fake click on gig Automation
 
-import webbrowser
-import pyautogui
-import time
 
-import webbrowser
-import pyautogui
-import time
 
-"""
-def click_gig(link, x, y):
+> import webbrowser
+> import pyautogui
+> import time
+
+> def click_gig(link, x, y):
    
     Opens a Fiverr gig link in a web browser, moves the cursor to the specified coordinates,
     right-clicks on the gig, presses down and enter keys, and waits for 2 seconds.
@@ -18,7 +15,7 @@ def click_gig(link, x, y):
     - link (str): The Fiverr gig link to open.
     - x (int): The x-coordinate of the cursor position.
     - y (int): The y-coordinate of the cursor position.
-    """
+   
     # Open the link in a web browser
     webbrowser.open(link)
 
@@ -39,7 +36,7 @@ def click_gig(link, x, y):
         time.sleep(2)
 
     # Rest of the code after the loop
-    """"
+   
 
 
 # Example usage
