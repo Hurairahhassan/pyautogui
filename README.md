@@ -4,7 +4,7 @@ import webbrowser
 import pyautogui
 import time
 
-def click_gig(link, x, y):
+'''def click_gig(link, x, y):
     """
     Opens a Fiverr gig link in a web browser, moves the cursor to the specified coordinates, 
     right-clicks on the gig, presses down and enter keys, and waits for 2 seconds.
@@ -31,7 +31,7 @@ def click_gig(link, x, y):
         pyautogui.press("enter")
 
         time.sleep(2)
-    # Rest of the code after the loop
+    # Rest of the code after the loop'''
 
 # Example usage
 links = [list of Fiverr gig links]
